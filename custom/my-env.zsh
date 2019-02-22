@@ -55,10 +55,10 @@ export PATH="$HOME/.google/flutter/bin:$PATH"
 export PATH="$HOME/.rvm/bin:$HOME/.rbenv/shims:$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '$HOME/.google/google-cloud-sdk/path.zsh.inc' ]; then source '$HOME/.google/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f "$HOME/.google/google-cloud-sdk/path.zsh.inc" ]; then source "$HOME/.google/google-cloud-sdk/path.zsh.inc"; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '$HOME/.google/google-cloud-sdk/completion.zsh.inc' ]; then source '$HOME/.google/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f "$HOME/.google/google-cloud-sdk/completion.zsh.inc" ]; then source "$HOME/.google/google-cloud-sdk/completion.zsh.inc"; fi
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
