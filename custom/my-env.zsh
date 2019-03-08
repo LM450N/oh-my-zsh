@@ -52,7 +52,7 @@ export NVM_DIR="$HOME/.nvm"
 # Google's Flutter
 export PATH="$HOME/.google/flutter/bin:$PATH"
 # Ruby Version Manager, RubyEnv, Node Package Manager
-export PATH="$HOME/.rvm/bin:$HOME/.rbenv/shims:$PATH"
+#export PATH="$HOME/.rvm/bin:$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "$HOME/.google/google-cloud-sdk/path.zsh.inc" ]; then source "$HOME/.google/google-cloud-sdk/path.zsh.inc"; fi
